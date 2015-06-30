@@ -2,7 +2,7 @@
   <defaultMapping>schneide rot, graviere Rest, ignoriere blau, markiere gruen</defaultMapping>
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>false</useFilenamesForJobs>
-  <labName>FAU FabLab</labName>
+  <labName>Fab Lab Region Nürnberg e.V.</labName>
   <windowBounds>
     <x>24</x>
     <y>186</y>
@@ -18,7 +18,7 @@
     <string>/tmp/ink_ext_XXXXXX.svgG8WJXX.svg</string>
   </recentFiles>
   <lastMaterial>Acryl</lastMaterial>
-  <lastLaserDevice>Epilog_Zing_Fablab</lastLaserDevice>
+  <lastLaserDevice>Epilog_Zing_FabLabNBG</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
