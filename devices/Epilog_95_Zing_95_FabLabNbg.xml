@@ -12,5 +12,9 @@ Please:
     <bedWidth>405.0</bedWidth>
     <bedHeight>305.0</bedHeight>
   </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
   <name>Epilog_Zing_FabLabNbg</name>
 </laserDevice>

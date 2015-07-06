@@ -1,5 +1,5 @@
 <visicutPreferences>
-  <defaultMapping>schneide rot, graviere Rest, ignoriere blau, markiere gruen</defaultMapping>
+  <defaultMapping>cut everything</defaultMapping>
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>false</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
@@ -11,11 +11,11 @@
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/juewei/drawing.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgW48LXX.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgNMOHXX.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgCNCNXX.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svg8D4JXX.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgG8WJXX.svg</string>
   </recentFiles>
   <lastMaterial>Acryl</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNBG</lastLaserDevice>

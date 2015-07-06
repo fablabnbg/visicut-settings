@@ -1,0 +1,28 @@
+<laserDevice>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+- Select Speed and Pressure on the display, 
+- Place the origin to upper lefthand corner of the graphics
+  viewing the plotter from the back, where the material is fed into.
+</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.GoldCutHPGL">
+    <machine__x>0</machine__x>
+    <machine__y>0</machine__y>
+    <addSpacePerRasterLine>0.5</addSpacePerRasterLine>
+    <flipYaxis>false</flipYaxis>
+    <flipXaxis>false</flipXaxis>
+    <finiString>!PG;;</finiString>
+    <initString>IN;PA;</initString>
+    <comPort>/dev/ttyUSB0</comPort>
+    <currentPower>-1</currentPower>
+    <currentSpeed>-1</currentSpeed>
+    <bedWidth>630.0</bedWidth>
+    <hwDPmm>39.37007874015748</hwDPmm>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <name>Schneidplotter Nueland</name>
+</laserDevice>
