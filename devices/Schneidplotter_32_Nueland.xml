@@ -3,12 +3,11 @@
 Please:
 - Select Speed and Pressure on the display, 
 - Place the origin to upper lefthand corner of the graphics
-  viewing the plotter from the back, where the material is fed into.
-</jobSentText>
+  viewing the plotter from the back, where the material is fed into.</jobSentText>
   <jobPrefix>visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.GoldCutHPGL">
-    <machine__x>0</machine__x>
-    <machine__y>0</machine__y>
+    <hw__x>0</hw__x>
+    <hw__y>0</hw__y>
     <addSpacePerRasterLine>0.5</addSpacePerRasterLine>
     <flipYaxis>false</flipYaxis>
     <flipXaxis>false</flipXaxis>
@@ -18,7 +17,7 @@ Please:
     <currentPower>-1</currentPower>
     <currentSpeed>-1</currentSpeed>
     <bedWidth>630.0</bedWidth>
-    <hwDPmm>39.37007874015748</hwDPmm>
+    <hwDPI>1000.0</hwDPI>
   </laserCutter>
   <cameraTiming>0</cameraTiming>
   <projectorTiming>0</projectorTiming>
