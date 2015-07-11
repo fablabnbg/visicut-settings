@@ -1,24 +1,24 @@
 <visicutPreferences>
   <defaultMapping>cut everything</defaultMapping>
   <disableSandbox>false</disableSandbox>
-  <useFilenamesForJobs>false</useFilenamesForJobs>
+  <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
   <windowBounds>
     <x>226</x>
     <y>151</y>
-    <width>1143</width>
-    <height>595</height>
+    <width>1197</width>
+    <height>687</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/juewei/fablab-oc/jw/inverse-kinematik-workshop/paralell_robot.svg</string>
     <string>/home/juewei/rect_300_50mm.svg</string>
     <string>/home/juewei/drawing.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgW48LXX.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgNMOHXX.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgCNCNXX.svg</string>
   </recentFiles>
-  <lastMaterial>Papier 80g</lastMaterial>
-  <lastLaserDevice>Schneidplotter Nueland</lastLaserDevice>
+  <lastMaterial>SperrHolz Pappel</lastMaterial>
+  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>

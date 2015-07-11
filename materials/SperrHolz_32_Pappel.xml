@@ -1,11 +1,13 @@
 <material>
-  <description>Pappelholz</description>
+  <description>Pappelsperrholz jw 20150710</description>
   <engraveColor>#000000</engraveColor>
   <cutColor>#ff0000</cutColor>
   <color>#ffffff</color>
-  <name>Holz Pappel</name>
+  <name>SperrHolz Pappel</name>
   <materialThicknesses>
+    <float>3.0</float>
     <float>4.0</float>
+    <float>5.0</float>
     <float>9.2</float>
   </materialThicknesses>
 </material>

@@ -13,7 +13,7 @@ Please:
     <flipXaxis>false</flipXaxis>
     <finiString>!PG;;</finiString>
     <initString>IN;PA;</initString>
-    <comPort>/dev/ttyUSB0</comPort>
+    <comPort>file:///tmp/ttyUSB0</comPort>
     <currentPower>-1</currentPower>
     <currentSpeed>-1</currentSpeed>
     <bedWidth>630.0</bedWidth>
