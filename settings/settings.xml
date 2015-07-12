@@ -4,20 +4,20 @@
   <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
   <windowBounds>
-    <x>172</x>
+    <x>170</x>
     <y>0</y>
     <width>1356</width>
-    <height>802</height>
+    <height>790</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/juewei/src/github/fablabnbg/platonic-mobile/pentagon_flower.svg</string>
     <string>/home/juewei/src/github/fablabnbg/logo-lasercut/no_clones.svg</string>
     <string>/home/juewei/src/github/fablabnbg/logo-lasercut/fablab-logo-1153.svg</string>
     <string>/home/juewei/src/github/fablabnbg/pimp-my-werkbank/2015-07-11/Schablone_240_220.svg</string>
     <string>/home/juewei/fablab-oc/jw/inverse-kinematik-workshop/paralell_robot.svg</string>
-    <string>/home/juewei/rect_300_50mm.svg</string>
   </recentFiles>
-  <lastMaterial>MDF</lastMaterial>
+  <lastMaterial>Acryl</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
