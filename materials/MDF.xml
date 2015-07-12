@@ -2,7 +2,7 @@
   <description>jw 20150711</description>
   <engraveColor>#000000</engraveColor>
   <cutColor>#550000</cutColor>
-  <color>#ffaa66</color>
+  <color>#ffccaa</color>
   <name>MDF</name>
   <materialThicknesses>
     <float>2.0</float>
