@@ -4,21 +4,21 @@
   <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
   <windowBounds>
-    <x>170</x>
-    <y>0</y>
+    <x>122</x>
+    <y>55</y>
     <width>1356</width>
     <height>790</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/juewei/boden.svg</string>
-    <string>/home/juewei/src/github/fablabnbg/platonic-mobile/pentagon_flower.svg</string>
-    <string>/home/juewei/src/github/fablabnbg/logo-lasercut/no_clones.svg</string>
-    <string>/home/juewei/src/github/fablabnbg/logo-lasercut/fablab-logo-1153.svg</string>
-    <string>/home/juewei/src/github/fablabnbg/pimp-my-werkbank/2015-07-11/Schablone_240_220.svg</string>
+    <string>/home/juewei/.visicut/examples/jw/Yes.svg</string>
+    <string>/home/juewei/.visicut/examples/jw/star-67.svg</string>
+    <string>/home/juewei/.visicut/examples/Basic/star-in-circle.svg</string>
+    <string>/home/juewei/.visicut/examples/Basic/polygons-3-11.svg</string>
+    <string>/home/juewei/.visicut/examples/Basic/lines.svg</string>
   </recentFiles>
-  <lastMaterial>Karton grau</lastMaterial>
-  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
+  <lastMaterial>Papier 80g</lastMaterial>
+  <lastLaserDevice>Schneidplotter Nueland</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
