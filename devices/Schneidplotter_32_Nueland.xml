@@ -9,7 +9,7 @@ Please:
     <hw__x>0</hw__x>
     <hw__y>0</hw__y>
     <addSpacePerRasterLine>0.5</addSpacePerRasterLine>
-    <flipYaxis>true</flipYaxis>
+    <flipYaxis>false</flipYaxis>
     <flipXaxis>false</flipXaxis>
     <finiString>!PG;;</finiString>
     <initString>IN;PA;</initString>
@@ -23,5 +23,6 @@ Please:
   <projectorTiming>0</projectorTiming>
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
+  <thumbnailPath>Schneidplotter_32_Nueland.png</thumbnailPath>
   <name>Schneidplotter Nueland</name>
 </laserDevice>

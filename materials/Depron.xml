@@ -1,0 +1,11 @@
+<material>
+  <description>polystryol foam 2015-07-21 jw</description>
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#ffffff</color>
+  <name>Depron</name>
+  <materialThicknesses>
+    <float>3.0</float>
+    <float>6.0</float>
+  </materialThicknesses>
+</material>
