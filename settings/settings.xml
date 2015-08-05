@@ -9,16 +9,16 @@
     <width>1356</width>
     <height>790</height>
   </windowBounds>
-  <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
+  <useThicknessAsFocusOffset>true</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/juewei/boden.svg</string>
+    <string>/run/media/juewei/B844-4D93/CD-Game.svg</string>
+    <string>/home/juewei/fablab-oc/jw/Pokal_klein.svg</string>
     <string>/home/juewei/.visicut/examples/jw/Yes.svg</string>
     <string>/home/juewei/.visicut/examples/jw/star-67.svg</string>
-    <string>/home/juewei/.visicut/examples/Basic/star-in-circle.svg</string>
-    <string>/home/juewei/.visicut/examples/Basic/polygons-3-11.svg</string>
-    <string>/home/juewei/.visicut/examples/Basic/lines.svg</string>
   </recentFiles>
-  <lastMaterial>Papier 80g</lastMaterial>
-  <lastLaserDevice>Schneidplotter Nueland</lastLaserDevice>
+  <lastMaterial>SperrHolz Pappel</lastMaterial>
+  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
