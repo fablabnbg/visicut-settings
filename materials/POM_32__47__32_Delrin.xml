@@ -1,0 +1,13 @@
+<material>
+  <description>2015-00-01 jw</description>
+  <engraveColor>#7b7b7b</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#ffffff</color>
+  <name>POM / Delrin</name>
+  <materialThicknesses>
+    <float>2.0</float>
+    <float>3.0</float>
+    <float>4.0</float>
+    <float>5.0</float>
+  </materialThicknesses>
+</material>
