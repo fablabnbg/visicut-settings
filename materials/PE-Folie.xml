@@ -1,0 +1,10 @@
+<material>
+  <description>20150818-jw</description>
+  <engraveColor>#797979</engraveColor>
+  <cutColor>#fefefe</cutColor>
+  <color>#010101</color>
+  <name>PE-Folie</name>
+  <materialThicknesses>
+    <float>1.0</float>
+  </materialThicknesses>
+</material>
