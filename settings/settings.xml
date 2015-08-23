@@ -4,20 +4,20 @@
   <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
   <windowBounds>
-    <x>28</x>
+    <x>168</x>
     <y>0</y>
-    <width>1360</width>
+    <width>1432</width>
     <height>820</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
     <string>/home/juewei/rect_300_50mm.svg</string>
+    <string>/home/juewei/oCC2015/graphics/deco/occ_text_small_fill.svg</string>
+    <string>/home/juewei/oCC2015/graphics/deco/owncloud-outlines.svg</string>
     <string>/home/juewei/Bristlebot_Pokal.svg</string>
     <string>/home/juewei/boden.svg</string>
-    <string>/run/media/juewei/B844-4D93/CD-Game.svg</string>
-    <string>/home/juewei/fablab-oc/jw/Pokal_klein.svg</string>
   </recentFiles>
-  <lastMaterial>PE-Folie</lastMaterial>
+  <lastMaterial>Acryl</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
