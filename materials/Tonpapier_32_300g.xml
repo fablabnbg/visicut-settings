@@ -1,0 +1,10 @@
+<material>
+  <description>jw 20150919</description>
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#dafbfe</color>
+  <name>Tonpapier 300g</name>
+  <materialThicknesses>
+    <float>0.3</float>
+  </materialThicknesses>
+</material>
