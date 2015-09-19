@@ -3,21 +3,24 @@
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
+  <enableQRCodes>false</enableQRCodes>
+  <fastQRCodes>false</fastQRCodes>
+  <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>168</x>
-    <y>0</y>
-    <width>1432</width>
-    <height>820</height>
+    <x>226</x>
+    <y>1</y>
+    <width>1294</width>
+    <height>863</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/juewei/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/home/juewei/.visicut/examples/square-triangle-15mm.svg</string>
+    <string>/home/juewei/fablab-oc/_intern/Events/Muggeley2015/muggeley2015/6xwings-3er-mulitbunt_visicut.svg</string>
+    <string>/home/juewei/fablab-oc/_intern/Events/Muggeley2015/muggeley2015/6xwings-3er-mulitbunt.svg</string>
     <string>/home/juewei/rect_300_50mm.svg</string>
-    <string>/home/juewei/oCC2015/graphics/deco/occ_text_small_fill.svg</string>
-    <string>/home/juewei/oCC2015/graphics/deco/owncloud-outlines.svg</string>
-    <string>/home/juewei/Bristlebot_Pokal.svg</string>
-    <string>/home/juewei/boden.svg</string>
   </recentFiles>
-  <lastMaterial>Acryl</lastMaterial>
+  <lastMaterial>MDF</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
