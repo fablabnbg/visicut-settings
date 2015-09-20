@@ -1,0 +1,12 @@
+<material>
+  <description>Balsa 2015-09-20 jw</description>
+  <engraveColor>#717171</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#e2cc73</color>
+  <name>Balsaholz</name>
+  <materialThicknesses>
+    <float>3.0</float>
+    <float>2.0</float>
+    <float>1.5</float>
+  </materialThicknesses>
+</material>
