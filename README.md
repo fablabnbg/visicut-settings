@@ -9,7 +9,7 @@ Instructions
 In newer versions of VisiCut you can select 'Germany, Nuremberg: Fab Lab Region Nürnberg, e.V.' from
 ```Options -> Settings -> Download Recommended Settings ...```
 
-In older versions of VisiCut you can use the Download ZIP link, and rename the .zip extension to .vcsettings and then use the Archive with ```Options -> Settings -> Import Settings ...```
+In older versions of VisiCut you can use the ```Download ZIP``` link, and rename the .zip extension to .vcsettings and then use the Archive with ```Options -> Settings -> Import Settings ...``` If that does not work, you have to repack the archive, so that there is no toplevel directory. 
 
 
 Use the source
