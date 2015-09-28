@@ -6,6 +6,15 @@ Settings for [VisiCut](https://github.com/t-oster/VisiCut) (A userfriendly tool 
 Instructions
 ------------
 
+In newer versions of VisiCut you can select 'Germany, Nuremberg: Fab Lab Region Nürnberg, e.V.' from
+Options -> Settings -> Download Recommended Settings ...
+
+In older versions of VisiCut you can use the Download ZIP link, and rename the .zip extension to .vcsettings and then use the Archive with Options -> Settings -> Import Settings ...
+
+
+Use the source
+--------------
+
  * Delete all settings before you clone this repo:
     
     ```bash
