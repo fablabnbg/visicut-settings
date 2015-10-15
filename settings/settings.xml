@@ -7,20 +7,20 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>226</x>
-    <y>1</y>
-    <width>1294</width>
-    <height>863</height>
+    <x>457</x>
+    <y>0</y>
+    <width>1143</width>
+    <height>595</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/juewei/.visicut/examples/Basic/visicut-icon.png</string>
-    <string>/home/juewei/obs-load.png</string>
-    <string>/home/juewei/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/home/juewei/.visicut/examples/fablab-schluesselanhaenger.plf</string>
+    <string>/home/juewei/.visicut/examples/box-6x3x3-on-3mm.svg</string>
+    <string>/home/juewei/rect_300_50mm.svg</string>
+    <string>/home/juewei/Bristlebot_Pokal.svg</string>
     <string>/home/juewei/.visicut/examples/square-triangle-15mm.svg</string>
-    <string>/home/juewei/fablab-oc/_intern/Events/Muggeley2015/muggeley2015/6xwings-3er-mulitbunt_visicut.svg</string>
   </recentFiles>
-  <lastMaterial>SperrHolz Birke</lastMaterial>
+  <lastMaterial>MDF</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
