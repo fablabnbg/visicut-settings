@@ -1,0 +1,9 @@
+<material>
+  <engraveColor>#cccccc</engraveColor>
+  <cutColor>#ffffff</cutColor>
+  <color>#cc6600</color>
+  <name>Echt Leder</name>
+  <materialThicknesses>
+    <float>3.0</float>
+  </materialThicknesses>
+</material>
