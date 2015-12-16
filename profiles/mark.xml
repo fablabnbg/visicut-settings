@@ -1,8 +1,8 @@
 <vectorProfile>
   <DPI>500.0</DPI>
-  <description>Cut through the material</description>
+  <description>Cut into the surface</description>
   <name>mark</name>
-  <orderStrategy>FILE</orderStrategy>
+  <orderStrategy>NEAREST</orderStrategy>
   <useOutline>false</useOutline>
   <isCut>true</isCut>
   <width>1.0</width>

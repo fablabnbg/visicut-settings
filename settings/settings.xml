@@ -7,20 +7,20 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>457</x>
-    <y>0</y>
-    <width>1143</width>
-    <height>875</height>
+    <x>226</x>
+    <y>147</y>
+    <width>1139</width>
+    <height>602</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/juewei/.visicut/examples/FabLabNbg/logo-mark.svg</string>
-    <string>/home/juewei/.visicut/examples/FabLabNbg/logo-engrave.svg</string>
-    <string>/home/juewei/programmheft-logo.plf</string>
-    <string>/home/juewei/.visicut/examples/fablab-schluesselanhaenger.plf</string>
-    <string>/home/juewei/.visicut/examples/box-6x3x3-on-3mm.svg</string>
+    <string>/home/jw/stern_jw.svg</string>
+    <string>/home/jw/stern.svg</string>
+    <string>/home/jw/bunt.svg</string>
+    <string>/home/jw/nicolaus_done.png</string>
+    <string>/tmp/ink_ext_XXXXXX.svgPWC88X.svg</string>
   </recentFiles>
-  <lastMaterial>Karton grau</lastMaterial>
+  <lastMaterial>Stempelgummi</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>

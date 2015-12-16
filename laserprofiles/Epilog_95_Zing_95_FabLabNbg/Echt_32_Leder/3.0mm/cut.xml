@@ -3,6 +3,6 @@
     <power>100</power>
     <speed>48</speed>
     <focus>0.0</focus>
-    <frequency>5000</frequency>
+    <frequency>500</frequency>
   </PowerSpeedFocusFrequencyProperty>
 </linked-list>
