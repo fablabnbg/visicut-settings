@@ -8,19 +8,19 @@
   <fabqrActive>false</fabqrActive>
   <windowBounds>
     <x>226</x>
-    <y>147</y>
+    <y>46</y>
     <width>1139</width>
-    <height>602</height>
+    <height>805</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/jw/stern_jw.svg</string>
-    <string>/home/jw/stern.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgEGC3AY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgGLZABY.svg</string>
     <string>/home/jw/bunt.svg</string>
-    <string>/home/jw/nicolaus_done.png</string>
-    <string>/tmp/ink_ext_XXXXXX.svgPWC88X.svg</string>
+    <string>/home/jw/servo_360.svg</string>
+    <string>/home/jw/line_ab_888_motor.svg</string>
   </recentFiles>
-  <lastMaterial>Stempelgummi</lastMaterial>
+  <lastMaterial>Karton grau</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
