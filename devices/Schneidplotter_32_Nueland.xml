@@ -17,6 +17,7 @@ Please:
     <currentPower>-1</currentPower>
     <currentSpeed>-1</currentSpeed>
     <bedWidth>630.0</bedWidth>
+    <bedHeight>1000.0</bedHeight>
     <hwDPI>1000.0</hwDPI>
   </laserCutter>
   <cameraTiming>0</cameraTiming>

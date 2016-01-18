@@ -6,9 +6,11 @@
     <hw__y>0</hw__y>
     <addSpacePerRasterLine>0.5</addSpacePerRasterLine>
     <devPort>/dev/usb/lp0</devPort>
-    <currentPower>-1</currentPower>
+    <currentPressure>-1</currentPressure>
     <currentSpeed>-1</currentSpeed>
+    <currentKnive>-1</currentKnive>
     <bedWidth>304.79999999999995</bedWidth>
+    <bedHeight>600.</bedHeight>
     <hwDPI>254.0</hwDPI>
   </laserCutter>
   <cameraTiming>0</cameraTiming>
