@@ -7,8 +7,8 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>226</x>
-    <y>46</y>
+    <x>20</x>
+    <y>0</y>
     <width>1139</width>
     <height>805</height>
   </windowBounds>
@@ -20,7 +20,7 @@
     <string>/tmp/ink_ext_XXXXXX.svgH9T1BY.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svg3L6LBY.svg</string>
   </recentFiles>
-  <lastMaterial>Kraftplex</lastMaterial>
+  <lastMaterial>MDF (nicht verwenden!)</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
