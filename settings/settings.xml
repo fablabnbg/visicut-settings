@@ -7,18 +7,18 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>230</x>
-    <y>47</y>
+    <x>381</x>
+    <y>25</y>
     <width>1139</width>
     <height>805</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/jw/.visicut/examples/Laser Script/PowerSpeedTest.ls</string>
+    <string>/home/jw/.visicut/examples/Laser Script/LaserScriptExample.ls</string>
+    <string>/tmp/ink_ext_XXXXXX.svgU9MTBY.svg</string>
     <string>/home/jw/bunt.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgSGOQBY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgL7A2BY.svg</string>
-    <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg8TFWBY.svg</string>
   </recentFiles>
   <lastMaterial>Kapa</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
