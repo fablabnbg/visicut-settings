@@ -8,7 +8,7 @@
 // Distribute under GPL-2.0 or ask.
 //
 
-scale=2/1.2
+scale=1/1.2
 x_off=2.0
 y_off=2.0
 
