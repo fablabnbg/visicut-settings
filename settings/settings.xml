@@ -7,21 +7,21 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>20</x>
-    <y>0</y>
+    <x>230</x>
+    <y>47</y>
     <width>1139</width>
     <height>805</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/tmp/ink_ext_XXXXXX.svg2614BY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg0P5OBY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg8VGLBY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgH9T1BY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg3L6LBY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgSGOQBY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgL7A2BY.svg</string>
+    <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg8TFWBY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgJMYYBY.svg</string>
   </recentFiles>
-  <lastMaterial>MDF (nicht verwenden!)</lastMaterial>
-  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
+  <lastMaterial>Papier 80g</lastMaterial>
+  <lastLaserDevice>Schneidplotter Nueland</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
