@@ -1,5 +1,5 @@
 <visicutPreferences>
-  <defaultMapping>cut everything</defaultMapping>
+  <defaultMapping>schneide rot, markierte gruen, ignoriere blau, graviere Rest</defaultMapping>
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>true</useFilenamesForJobs>
   <labName>Fab Lab Region Nürnberg e.V.</labName>
@@ -14,14 +14,14 @@
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/jw/bunt.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgSGOQBY.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgL7A2BY.svg</string>
     <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svg8TFWBY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgJMYYBY.svg</string>
   </recentFiles>
   <lastMaterial>Kapa</lastMaterial>
-  <lastLaserDevice>Silhouette Cameo</lastLaserDevice>
+  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
