@@ -1,5 +1,5 @@
 //
-// PowerSpeeedTest.ls
+// PowerSpeedTest.ls
 //
 // Draw a row of rectangles, and adjacent text (from a 7 segment font)
 // ramping up power from 5 to 100 %, then ramping down speed from 100 to 5%
@@ -8,7 +8,7 @@
 // Distribute under GPL-2.0 or ask.
 //
 
-scale=1/1.2
+scale=2/1.2
 x_off=2.0
 y_off=2.0
 
@@ -25,10 +25,16 @@ s7_6 = [ 0, 0, 1, 1, 1, 1, 1 ]
 s7_7 = [ 1, 1, 0, 1, 0, 0, 0 ]
 s7_8 = [ 1, 1, 1, 1, 1, 1, 1 ]
 s7_9 = [ 1, 1, 1, 1, 0, 0, 1 ]
-s7_P = [ 1, 1, 1, 0, 0, 5, 1 ]
+s7_A = [ 1, 1, 1, 1, 0, 1, 1 ]
+s7_C = [ 1, 0, 0, 0, 1, 1, 1 ]
 s7_E = [ 1, 0, 1, 0, 1, 1, 1 ]
-s7_L = [ 0, 0, 0, 0, 1, 1, 1 ]
+s7_F = [ 1, 0, 1, 0, 0, 1, 1 ]
 s7_J = [ 0, 1, 0, 1, 1, 1, 0 ]	// L+J => W
+s7_L = [ 0, 0, 0, 0, 1, 1, 1 ]
+s7_P = [ 1, 1, 1, 0, 0, 5, 1 ]
+s7_U = [ 0, 1, 0, 1, 1, 1, 1 ]
+s7_D  = s7_0
+s7_R  = s7_A
 s7_S  = s7_5
 s7_O  = s7_0
 
@@ -66,7 +72,7 @@ pow_text = [ s7__, s7__, s7_5, s7__,
 	     s7_1, s7_0, s7_0, s7__,
 	     s7_1, s7_0, s7_0, s7__,
 	     s7_1, s7_0, s7_0, s7__,
-	     s7_1, s7_0, s7_0, s7__, ]
+	     s7_1, s7_0, s7_0, s7__ ]
 
 spe_text = [ s7_1, s7_0, s7_0, s7__,
              s7_1, s7_0, s7_0, s7__,
@@ -92,7 +98,7 @@ spe_text = [ s7_1, s7_0, s7_0, s7__,
 	     s7__, s7_2, s7_0, s7__,
 	     s7__, s7_1, s7_5, s7__,
 	     s7__, s7_1, s7_0, s7__,
-	     s7__, s7__, s7_5, s7__, ]
+	     s7__, s7__, s7_5, s7__ ]
 
 function move_s(x, y) { move(x*scale+x_off, y*scale+y_off); }
 function line_s(x, y) { line(x*scale+x_off, y*scale+y_off); }
@@ -125,25 +131,62 @@ function set_mark()
 }
 
 set_mark();
-seg7(0,0,  3,5, s7_P);	// POW
+seg7(0,0,  3,5, s7_P);	// POWER
 seg7(4,0,  3,5, s7_O);
 seg7(8,0,  3,5, s7_L);
 seg7(11,0, 3,5, s7_J);
+// seg7(15,0, 3,5, s7_E);	// ugly
+// seg7(19,0, 3,5, s7_R);	// ugly
 
-seg7(0,7,  3,5, s7_S);	// SPEE
+seg7(0,7,  3,5, s7_S);	// SPEED
 seg7(4,7,  3,5, s7_P);
 seg7(8,7,  3,5, s7_E);
 seg7(12,7, 3,5, s7_E);
+// seg7(16,7, 3,5, s7_D);	// ugly
 
+// hor. focus_test (left hand side)
+for (var f = -10; f < 11; f++)
+{
+  set("focus", f);
+  var h = 14; if (f % 5) h += 3;
+  move_s(10+f,h); line_s(10+f,20);
+}
+set("focus", 0);
+move_s(2.5-1, 14+1); line_s(2.5+1, 14+1);					// -
+move_s(10-1, 22+0); line_s(10, 22-2); line_s(10+1, 22+0);		// ^
+move_s(17.5-1, 14+1); line_s(17.5+1, 14+1); move_s(17.5,14+0); line_s(17.5,14+2);	// +
+seg7( 0,21, 2,3, s7_F);
+seg7( 3,21, 2,3, s7_O);
+seg7( 6,21, 2,3, s7_C);
+seg7(12,21, 2,3, s7_U);
+seg7(15,21, 2,3, s7_S);
+
+// squares and percentage values
 for (var i = 0; i < 23; i++)
 {
 	set_mark();
 	for (var j = 0; j < 4; j++)
 	  {
-	    seg7(18+12*i+4*j, 0, 3, 5, pow_text[4*i+j]);
-	    seg7(18+12*i+4*j, 7, 3, 5, spe_text[4*i+j]);
+	    seg7(19+12*i+4*j, 0, 3, 5, pow_text[4*i+j]);
+	    seg7(19+12*i+4*j, 7, 3, 5, spe_text[4*i+j]);
 	  }
 	set("power", pow[i]);
 	set("speed", spe[i]);
-	rect(20+12*i, 14, 10, 10);
+	rect(21+12*i, 14, 10, 10);
 }
+
+
+// vert. focus_test (right hand side)
+set_mark();
+var xr = 21+23*12
+for (var f = -10; f < 11; f++)
+{
+  set("focus", f);
+  var h = xr; if (f % 5) h += 3;
+  move_s(h,10+f); line_s(xr+6,10+f);
+}
+set("focus", 0);
+move_s(xr+8, 5-1); line_s(xr+8,5+1);					// -
+move_s(xr+9, 10-2); line_s(xr+6, 10); line_s(xr+9,10+2);		// <
+move_s(xr+8, 15-1); line_s(xr+8, 15+1); move_s(xr+7,15); line_s(xr+9,15); // +
+
