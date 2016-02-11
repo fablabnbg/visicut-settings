@@ -13,7 +13,7 @@ x_off=2.0
 y_off=2.0
 
 // use twolines_break=0 to render all in one line.
-twolines_break=0		// 152
+twolines_break=152
 twolines_stride=28
 
       // 0  1  2  3  4  5  6
