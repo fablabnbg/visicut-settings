@@ -154,6 +154,26 @@ function set_mark()
   set("speed", 100);	// marking text
 }
 
+// start of code execution here.
+
+// the border rectangle is without prior seting of speed or power
+// this makes the settings of the cut dialog effective for the border.
+if (twolines_break)
+  {
+    xend = (2*x_off + 1*twolines_break  + 3 ) * scale;
+    yend = (2*y_off + 2*twolines_stride - 2 ) * scale;
+  }
+else
+  {
+    xend = (2*x_off + 304               + 3 ) * scale;
+    yend = (2*y_off + 1*twolines_stride - 2 ) * scale;
+  }
+move(0,0); 
+line(xend, 0);
+line(xend, yend); 
+line(0,    yend); 
+line(0,0);
+
 set_mark();
 seg7(0,0,  3,5, s7_P);	// POWER
 seg7(4,0,  3,5, s7_O);
