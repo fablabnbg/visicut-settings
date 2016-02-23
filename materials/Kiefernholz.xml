@@ -1,0 +1,10 @@
+<material>
+  <description>jw 20160218</description>
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#ffffff</color>
+  <name>Kiefernholz</name>
+  <materialThicknesses>
+    <float>5.0</float>
+  </materialThicknesses>
+</material>
