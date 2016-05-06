@@ -6,7 +6,7 @@ Please:
 -And press &apos;start&apos; on the Lasercutter $name</jobSentText>
   <jobPrefix>VC</jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.EpilogZing">
-    <hostname>zing1.fablab.lan</hostname>
+    <hostname>172.16.18.10</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
     <bedWidth>405.0</bedWidth>
