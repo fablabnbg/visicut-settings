@@ -4,7 +4,7 @@
 // Draw a row of rectangles, and adjacent text (from a 7 segment font)
 // ramping up power from 5 to 100 %, then ramping down speed from 100 to 5%
 //
-// (c) 2016, juewei@fabfolk.com
+// (c) 2016, juewei@fabmail.org
 // Distribute under GPL-2.0 or ask.
 //
 
