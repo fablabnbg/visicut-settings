@@ -1,0 +1,10 @@
+<material>
+  <description>jw 20161114</description>
+  <engraveColor>#fefefe</engraveColor>
+  <cutColor>#a9fe98</cutColor>
+  <color>#7d7d7d</color>
+  <name>Schiefer Gravur</name>
+  <materialThicknesses>
+    <float>0.0</float>
+  </materialThicknesses>
+</material>
