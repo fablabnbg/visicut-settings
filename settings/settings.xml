@@ -7,18 +7,18 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>197</x>
+    <x>83</x>
     <y>0</y>
     <width>1351</width>
-    <height>795</height>
+    <height>740</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/tmp/ink_ext_XXXXXX.svgVJZVQY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgVONKQY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgZTBDQY.svg</string>
     <string>/home/jw/.visicut/examples/Basic/circle-20mm-red.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg366LKY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgZ2UDKY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg4E5OKY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg54MJJY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg4NJYKY.svg</string>
   </recentFiles>
   <lastMaterial>SperrHolz Birke</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
