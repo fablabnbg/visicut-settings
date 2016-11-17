@@ -9,16 +9,16 @@
   <windowBounds>
     <x>83</x>
     <y>0</y>
-    <width>1351</width>
-    <height>740</height>
+    <width>1517</width>
+    <height>835</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
     <string>/home/jw/.visicut/examples/Basic/circle-20mm-red.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgVJZVQY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgVONKQY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgZTBDQY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg4NJYKY.svg</string>
+    <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/home/jw/.visicut/examples/FabLabNbg/logo-mark.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg11UPQY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg77L4QY.svg</string>
   </recentFiles>
   <lastMaterial>SperrHolz Birke</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>

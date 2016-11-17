@@ -3,7 +3,7 @@
 //
 // Draw a scale of -10..0..+10 focus lines.
 //
-// (c) 2016, juewei@fabfolk.com
+// (c) 2016, juergen@fabmail.org
 // Distribute under GPL-2.0 or ask.
 //
 
