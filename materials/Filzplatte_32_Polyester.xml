@@ -1,0 +1,11 @@
+<material>
+  <description>idee-shop.com CreativMarkt; 2016-11-29, jw</description>
+  <engraveColor>#717171</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#e2cc73</color>
+  <name>Filzplatte Polyester</name>
+  <materialThicknesses>
+    <float>3.0</float>
+    <float>1.0</float>
+  </materialThicknesses>
+</material>

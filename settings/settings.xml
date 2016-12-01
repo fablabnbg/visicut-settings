@@ -2,25 +2,25 @@
   <defaultMapping>schneide rot, markierte gruen, ignoriere blau, graviere Rest</defaultMapping>
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>true</useFilenamesForJobs>
-  <labName>Fab Lab Region Nürnberg e.V.</labName>
+  <labName>Fab Lab Region N?rnberg e.V.</labName>
   <enableQRCodes>false</enableQRCodes>
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>83</x>
-    <y>0</y>
-    <width>1517</width>
-    <height>835</height>
+    <x>252</x>
+    <y>13</y>
+    <width>1143</width>
+    <height>759</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/jw/.visicut/examples/Basic/circle-20mm-red.svg</string>
+    <string>/home/jw/.visicut/examples/FabLabNbg/logo-engrave.svg</string>
     <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
-    <string>/home/jw/.visicut/examples/FabLabNbg/logo-mark.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg11UPQY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg77L4QY.svg</string>
+    <string>/home/jw/.visicut/examples/Laser Script/PowerSpeedFocusTest2.ls</string>
+    <string>/tmp/ink_ext_XXXXXX.svgP2EPRY.svg</string>
+    <string>/home/jw/.visicut/examples/Basic/circle-20mm-red.svg</string>
   </recentFiles>
-  <lastMaterial>SperrHolz Birke</lastMaterial>
+  <lastMaterial>Filzplatte Polyester</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
