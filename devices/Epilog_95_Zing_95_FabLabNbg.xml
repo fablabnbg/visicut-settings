@@ -1,4 +1,5 @@
 <laserDevice>
+  <originBottomLeft>false</originBottomLeft>
   <jobSentText>Job was sent as &apos;$jobname&apos;
 Please:
 -Close the lid

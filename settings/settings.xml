@@ -7,20 +7,15 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>252</x>
-    <y>13</y>
+    <x>1920</x>
+    <y>300</y>
     <width>1143</width>
-    <height>759</height>
+    <height>602</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/jw/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
-    <string>/home/jw/.visicut/examples/FabLabNbg/logo-engrave.svg</string>
-    <string>/home/jw/.visicut/examples/Laser Script/PowerSpeedFocusTest2.ls</string>
-    <string>/tmp/ink_ext_XXXXXX.svgP2EPRY.svg</string>
-    <string>/home/jw/.visicut/examples/Basic/circle-20mm-red.svg</string>
   </recentFiles>
-  <lastMaterial>Acryl</lastMaterial>
+  <lastMaterial>POM / Delrin</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
