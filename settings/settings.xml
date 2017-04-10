@@ -7,15 +7,20 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>1920</x>
-    <y>300</y>
-    <width>1143</width>
-    <height>602</height>
+    <x>226</x>
+    <y>35</y>
+    <width>1344</width>
+    <height>826</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
+    <string>/home/jw/.visicut/examples/FabLabNbg/logo-mark.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgODAJUY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg4MIBUY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgOVORUY.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgFLAPTY.svg</string>
   </recentFiles>
-  <lastMaterial>POM / Delrin</lastMaterial>
+  <lastMaterial>Acryl</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
