@@ -8,19 +8,19 @@
   <fabqrActive>false</fabqrActive>
   <windowBounds>
     <x>226</x>
-    <y>35</y>
-    <width>1344</width>
-    <height>826</height>
+    <y>3</y>
+    <width>1325</width>
+    <height>854</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
     <string>/home/testy/.visicut/examples/FabLabNbg/logo-mark.svg</string>
+    <string>/media/testy/631C-7EBB/Leica Case_2204_01-01.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgOKETYY.svg</string>
     <string>/home/jw/.visicut/examples/FabLabNbg/logo-mark.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgODAJUY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg4MIBUY.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgOVORUY.svg</string>
   </recentFiles>
-  <lastMaterial>SperrHolz Birke</lastMaterial>
+  <lastMaterial>Acryl</lastMaterial>
   <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
