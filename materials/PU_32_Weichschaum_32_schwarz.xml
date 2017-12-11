@@ -1,10 +1,11 @@
 <material>
-  <description>20160130 jw</description>
+  <description>Muggeley 20170229jw</description>
   <engraveColor>#cbcbcb</engraveColor>
   <cutColor>#000000</cutColor>
   <color>#7b7b7b</color>
   <name>PU Weichschaum schwarz</name>
   <materialThicknesses>
+    <float>3.0</float>
     <float>10.0</float>
     <float>15.0</float>
     <float>20.0</float>
