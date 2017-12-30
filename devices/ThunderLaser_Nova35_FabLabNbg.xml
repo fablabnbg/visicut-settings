@@ -3,13 +3,13 @@
   <jobSentText>Job was sent as &apos;$jobname&apos;
 Please:
 -Close the lid
--Turn on the Ventilation
--And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+-Turn on ventilation
+-And press &apos;start&apos;</jobSentText>
   <jobPrefix>visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.ThunderLaser">
-    <BedWidth>500.0</BedWidth>
-    <BedHeight>300.0</BedHeight>
-    <LaserPowerMax>60</LaserPowerMax>
+    <BedWidth>900.0</BedWidth>
+    <BedHeight>600.0</BedHeight>
+    <LaserPowerMax>70</LaserPowerMax>
     <MaxVectorCutSpeed>1000</MaxVectorCutSpeed>
     <MaxVectorMoveSpeed>1000</MaxVectorMoveSpeed>
     <hostname>127.0.0.1</hostname>
@@ -19,5 +19,6 @@ Please:
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
   <description>ThunderLaser 644xg</description>
+  <thumbnailPath>ThunderLaser_Nova35_FabLabNbg.png</thumbnailPath>
   <name>ThunderLaser</name>
 </laserDevice>
