@@ -1,0 +1,23 @@
+<laserDevice>
+  <originBottomLeft>false</originBottomLeft>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+-Close the lid
+-Turn on the Ventilation
+-And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.ThunderLaser">
+    <BedWidth>500.0</BedWidth>
+    <BedHeight>300.0</BedHeight>
+    <LaserPowerMax>60</LaserPowerMax>
+    <MaxVectorCutSpeed>1000</MaxVectorCutSpeed>
+    <MaxVectorMoveSpeed>1000</MaxVectorMoveSpeed>
+    <hostname>127.0.0.1</hostname>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <description>ThunderLaser 644xg</description>
+  <name>ThunderLaser</name>
+</laserDevice>
