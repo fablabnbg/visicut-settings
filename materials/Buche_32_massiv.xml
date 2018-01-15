@@ -1,0 +1,10 @@
+<material>
+  <description>Leimholzplatte</description>
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#efefb2</color>
+  <name>Buche massiv</name>
+  <materialThicknesses>
+    <float>18.0</float>
+  </materialThicknesses>
+</material>
