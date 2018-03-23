@@ -14,14 +14,14 @@
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/tmp/ink_ext_XXXXXX.svg9II4FZ.svg</string>
+    <string>/home/testy/.visicut/examples/red-circle-30mm.svg</string>
     <string>/home/testy/.visicut/examples/FabLabNbg/logo-mark.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg9II4FZ.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svg82T0EZ.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svgS98JDZ.svg</string>
-    <string>/home/testy/.visicut/examples/FabLabNbg/logo-cut.svg</string>
   </recentFiles>
-  <lastMaterial>Balsaholz</lastMaterial>
-  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
+  <lastMaterial>SperrHolz Birke</lastMaterial>
+  <lastLaserDevice>ThunderLaser_Nova35_FabLabNbg 20180323</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
