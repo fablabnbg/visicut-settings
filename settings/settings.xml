@@ -7,21 +7,21 @@
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
   <windowBounds>
-    <x>0</x>
+    <x>456</x>
     <y>1080</y>
-    <width>1325</width>
+    <width>1139</width>
     <height>873</height>
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/testy/stl/chair+table/chair.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgR6MNCZ.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg9II4FZ.svg</string>
     <string>/home/testy/.visicut/examples/FabLabNbg/logo-mark.svg</string>
-    <string>/home/testy/.visicut/examples/Basic/rectangle-20mm-green.svg</string>
-    <string>/home/testy/.visicut/examples/Laser-Script/PowerSpeedFocusTest2.ls</string>
+    <string>/tmp/ink_ext_XXXXXX.svg82T0EZ.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svgS98JDZ.svg</string>
+    <string>/home/testy/.visicut/examples/FabLabNbg/logo-cut.svg</string>
   </recentFiles>
-  <lastMaterial>Kraftplex</lastMaterial>
-  <lastLaserDevice>ThunderLaser_Nova35_FabLabNbg</lastLaserDevice>
+  <lastMaterial>Balsaholz</lastMaterial>
+  <lastLaserDevice>Epilog_Zing_FabLabNbg</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>

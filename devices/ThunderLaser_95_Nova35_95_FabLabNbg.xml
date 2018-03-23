@@ -12,6 +12,7 @@ Please:
       <width>0.0</width>
       <height>0.0</height>
     </ruida>
+    <useBidirectionalRastering>false</useBidirectionalRastering>
     <BedWidth>900.0</BedWidth>
     <BedHeight>600.0</BedHeight>
     <LaserPowerMax>70</LaserPowerMax>
