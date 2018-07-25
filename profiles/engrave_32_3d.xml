@@ -1,6 +1,6 @@
 <raster3dProfile>
   <DPI>500.0</DPI>
-  <description>A new Laserprofile</description>
+  <description>deep engrave</description>
   <name>engrave 3d</name>
   <invertColors>false</invertColors>
   <colorShift>0</colorShift>

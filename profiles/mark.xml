@@ -1,9 +1,9 @@
 <vectorProfile>
   <DPI>500.0</DPI>
-  <description>Cut into the surface</description>
+  <description>oberflächenschnitt</description>
   <name>mark</name>
   <orderStrategy>NEAREST</orderStrategy>
   <useOutline>false</useOutline>
   <isCut>true</isCut>
-  <width>1.0</width>
+  <width>0.2</width>
 </vectorProfile>

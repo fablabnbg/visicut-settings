@@ -1,9 +1,9 @@
 <material>
   <description>20180725, jw</description>
   <engraveColor>#000000</engraveColor>
-  <cutColor>#ff0000</cutColor>
-  <color>#91fbfd</color>
-  <name>Acryl</name>
+  <cutColor>#000000</cutColor>
+  <color>#e9e2a1</color>
+  <name>Sperrholz Birke Hannes</name>
   <materialThicknesses>
     <float>3.0</float>
     <float>4.0</float>

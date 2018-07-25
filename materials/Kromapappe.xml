@@ -1,0 +1,10 @@
+<material>
+  <description></description>
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#eaeaea</color>
+  <name>Kromapappe</name>
+  <materialThicknesses>
+    <float>2.0</float>
+  </materialThicknesses>
+</material>
