@@ -7,18 +7,18 @@ Please:
 -And press &apos;start&apos; on the Lasercutter $name</jobSentText>
   <jobPrefix>visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.EpilogZing">
-    <hostname>172.16.18.10</hostname>
+    <hostname>192.168.1.11</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
     <hideSoftwareFocus>false</hideSoftwareFocus>
-    <bedWidth>305.0</bedWidth>
-    <bedHeight>405.0</bedHeight>
+    <bedWidth>405.0</bedWidth>
+    <bedHeight>305.0</bedHeight>
   </laserCutter>
   <cameraTiming>0</cameraTiming>
   <projectorTiming>0</projectorTiming>
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
   <thumbnailPath>Zing.png</thumbnailPath>
-  <description>20180725, jw</description>
+  <description>20181215, jw</description>
   <name>Zing</name>
 </laserDevice>
