@@ -9,7 +9,22 @@ Instructions
 In newer versions of VisiCut you can select 'Germany, Nuremberg: Fab Lab Region Nürnberg, e.V.' from
 ```Options -> Settings -> Download Recommended Settings ...```
 
-In older versions of VisiCut you can use the ```Download ZIP``` link, and rename the .zip extension to .vcsettings and then use the Archive with ```Options -> Settings -> Import Settings ...``` If that does not work, you have to repack the archive, so that there is no toplevel directory. 
+
+Warnings
+--------
+
+These settings define the lasercutters. Materials found here are outdated and may or may not work. Please refer to 
+
+ * https://wiki.fablab-nuernberg.de/w/Nova_35#Notwendige_Einstellungen
+ * https://wiki.fablab-nuernberg.de/w/ZING_4030#Schneiden:_CUT_-_.28.22Rote_Linie.22.29
+
+It is not possible to merge changes when you load these settings. Everything you edited is silently overwritten or discarded
+
+The data format here is very strict XML. The correct dtd is unknown.
+
+Migrating from one version to another version of visicut fails, if the format changes. 
+
+Adding new settings here (or re-adding old broken settings) is only possible through the visicut gui. Use patience when doing so.
 
 
 Use the source
