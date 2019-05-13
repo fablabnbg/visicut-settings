@@ -23,7 +23,7 @@ Please:
     <useFilename>false</useFilename>
     <filename>thunder.rd</filename>
     <useNetwork>false</useNetwork>
-    <network__addr>172.16.18.11</network__addr>
+    <network__addr>nova35.fablab.lan</network__addr>
     <useUsb>true</useUsb>
     <usb__device>/dev/ttyUSB0</usb__device>
   </laserCutter>
@@ -32,6 +32,6 @@ Please:
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
   <thumbnailPath>Nova_32_35_32_fablabnbg.png</thumbnailPath>
-  <description>20180725, jw</description>
+  <description>20190513, jw</description>
   <name>Nova 35 fablabnbg</name>
 </laserDevice>
