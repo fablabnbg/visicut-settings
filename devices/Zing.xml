@@ -7,7 +7,7 @@ Please:
 -And press &apos;start&apos; on the Lasercutter $name</jobSentText>
   <jobPrefix>visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.EpilogZing">
-    <hostname>192.168.1.11</hostname>
+    <hostname>zing1.fablab.lan</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
     <hideSoftwareFocus>false</hideSoftwareFocus>
@@ -19,6 +19,6 @@ Please:
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
   <thumbnailPath>Zing.png</thumbnailPath>
-  <description>20181215, jw</description>
+  <description>20190513, jw</description>
   <name>Zing</name>
 </laserDevice>
