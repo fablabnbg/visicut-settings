@@ -1,0 +1,246 @@
+[[ZING_4030#Schneiden:_CUT_-_.28.22Rote_Linie.22.29|Zum anderen Laser (Epilog Zing 4030)]] 
+{{Infobox Gerät
+|Foto = Nova35.png
+|Hersteller = Thunderlaser / Allplast
+|Typ = Nova 35
+|Status = gruen
+|KlasseE = gruen
+}}
+
+== Mögliche Materialien ==
+
+Holz Acryl, Pappe, ... Materialstärken bis ca 8mm.
+Siehe https://wiki.fablab-nuernberg.de/w/ZING_4030#M.C3.B6gliche_Materialien
+
+== Vorbereitung ==
+
+Der Nova35 Laser ist nur nach Einweisung nutzbar! Nicht fürs OpenLab freigegeben!
+
+* Nova Laser einschalten unten rechts: Der Drehschalter muss oben stehen, die beiden Kippschalter auf 1.
+* Lüftungs-Schlauch vom Zing abziehen, und am Verlängerungsstück des Thunderlaser anstecken.
+* Aussen-Absaugung einschalten: Ein grosser Drehschalter + 2 kleine Kippschalter
+* Roten Reset-Knopf am Laser drücken. 
+  Das Display startet. Erst danach reagiert der Laser auf USB oder Netzwerk.
+
+=== Benötigte Dateien ===
+
+SVG. Und alles was sich in SVG konvertieren lässt. CDR, AI, EPS, ...
+
+=== Empfohlene Software ===
+
+==== VisiCut ====
+VisiCut arbeitet als Erweiterung für Inkscape.
+Ein VisiCut mit Unterstützung für den Nova35 kann hier heruntergeladen werden:
+https://github.com/fablabnbg/VisiCut/releases
+
+Einmalig nach dem Start von VisiCut sollte aus dem Menü "Empfohlene Einstellungen herunterladen" aufgerufen werden,
+und die Einstellungen für "FabLab Region Nürnberg e.V." geladen werden. Dann sind alle unsere Laser verfügbar.
+Bei Windows muss zusätzlich einmal der Menüpunkt "Install Inkscape Plugin" aufgerufen werden.
+
+Die  Material-Profile in den sog. empfohlenen Einstellungen sind fast alle falsch. Man hört immerwieder gerüchte, man solle prinzipiell immer mit 1mm mehr Materialstärke lasern. Das ist so allgemein natürlcih auch falsch. Viele Materialien tauchen als Auswahl auf, obwohl wir sie noch nie ausprobiert haben. Das ist ein Softwarefehler. Viele Materialien haben einstellung 10 20 100, das sind die Werte, die das Programm sich ausdenkt, wenn nichts hinterlegt ist. Auch ein Softwarefehler. Man hört immer wieder Gerüchte, man solle prinzipiell immer mit 1mm mehr Materialstärke lasern. Das ist so allgemein natürlich auch falsch.
+Bei wichtigen Teilen immer vorher einen kleinen Testschnitt machen! Bitte neue Einstellungen prüfen und mit der Tabelle hier im Wiki vergleichen. Stand Mai 2018 wird die untenstehende Tabelle von juergen@fabmail.org gepflegt. Die 'empfohlenen Einstellungen' sind nur mit erhöhtem Aufwand zu verändern und bleiben daher leider ungepflegt. Ideen bitte an juergen@fabmail.org .
+
+Im Menü Lasercutter Verwalten kann beim Thunderlaser umgeschaltet werden zwischen 
+* Dateien für USB-Stick (`D:\test.rd`) , 
+* Verbindung über USB-Kabel (Linux: `/dev/ttyUSB0`, Windows: `com4`)<br
+/>Die genaue Nummer der com-Schnittstelle unter Windows muss unter Systemeinstellungen -> Gerätemanager nachgeschaut werden. Dort erscheint der Name 'FTDI'. Falls gar nichts erscheint muss noch ein FTDI-Treiber installiert werden.
+* Verbindung über Netzwerk:  Im visicut oder rdworks muss dazu die Addresse '''172.22.30.50''' eingestellt sein. [Im Bedienpanel steht eine andere IP-Adresse (172.22.30.21) Das ist richtig so, denn direkt funktioniert es nicht.]
+
+==== Inkscape Thunderlaser Extension ====
+Das ist eine Alternative zu VisiCut. Das Programm arbeitet ohne die von VisiCut gewohnten Wartezeiten, ist aber viel einfacher gehalten. https://github.com/jnweiger/inkscape-thunderlaser/releases
+Als Ausgabe Datei stehen genau die gleichen Möglichkeiten zur Wahl wie bei VisiCut.
+
+==== CorelDraw mit installiertem RDWorks plugin ====
+Bedienung siehe  https://raw.githubusercontent.com/jnweiger/ruida-laser/master/doc/laser-nova35-rdworks.md
+
+
+==== Andere Software ====
+* Python: https://github.com/jnweiger/ruida-laser
+* https://wiki.fablab-nuernberg.de/w/Diskussion:Nova_35
+
+* rd-Format Decoder: https://github.com/kkaempf/ruida
+
+== Durchführung ==
+
+=== Notwendige Einstellungen ===
+
+Bedienung nur nach Einweisung (Wir geben Workshops!) und anhand der [https://raw.githubusercontent.com/jnweiger/ruida-laser/master/doc/laser-nova35-rdworks.md laser-nova35/HOWTO.txt] Checkliste.
+
+Schneidfläche: 900 x 600 mm
+
+Laser-Leistung: Einstellung '''80% ist absolutes Maximum''' Alles darüber zerstört den Laser. 
+
+Fokuseinstellung: Mit der neuen Linse (Oktober 2017): 20mm (Früher: 6mm)
+
+
+Die beiden Thunderlaser Nova35 in Nürnberg und Veitsbronn haben unterschiedliche Röhren. Die Werte hier sollten für beide funktionieren. In Veisbronn kann man evtl ein wenig schneller fahren.
+
+==== Schneiden: CUT - ("Rote Linie") ====
+
+Acryl Frequenz 1000 gibt bessere Schnitte als andere Frequenzen. Vielleicht hat die Frequenz aber auch gar keine Wirkung....
+ 
+{| class="wikitable"
+|-
+! Material !! MinPower1 !! MaxPower1 !! Speed !! Fokus !! Bemerkung 
+|-
+!          !! [ % ] !! [ % ] !! [&nbsp;mm/s&nbsp;] !! [&nbsp;mm&nbsp;]!!
+|-
+| Acryl 2mm ||  45 || 70 || 45 || ||  jw 20201003 fln
+|-
+| Acryl 3mm ||  55 || 70 || 25 || ||
+|-
+| Acryl 4mm ||  60 ||  70 || 15 || ||
+|-
+| Acryl 5mm ||  60 ||  70 || 11 || ||
+|-
+| Acryl 6mm ||  60 ||  70 || 7 || ||
+|-
+|
+|-
+| Sperrholz Birke 3mm ||  50 ||  70 || 30 || ||
+|-
+| Sperrholz Birke 4mm ||  50 ||  70 || 20 || ||
+|-
+| Sperrholz Birke 5mm ||  60 ||  70 || 15 || ||
+|-
+| Sperrholz Birke 6,5mm ||  60 ||  70 || 10 || 17 ||
+|-
+| Sperrholz Birke 8mm ||  60 ||  70 || 7 || 17 || jw 20201001 nbg
+|-
+|
+|-
+| Sperrholz Buche 1.5mm ||  50 ||  70 || 30 || || jw 20190624 falafue
+|-
+| Sperrholz Buche 6mm ||  70 ||  80 || 4 || ||unbedingt Abstandshölzer zwischen Werkstück und Gitter legen. Die Reflexionen brennen sich sonst ein.
+|-
+|
+|-
+| Sperrholz Pappel 2mm || 40 || 70 || 60 || ||
+|-
+| Sperrholz Pappel 3mm || 50 || 70 || 50 || ||
+|-
+| Sperrholz Pappel 4mm || 50 || 70 || 45 || ||  jw 20190322 falafue. (speed=30 nbg)
+|-
+| Sperrholz Pappel 5mm || 60 || 70 || 20 || || 
+|-
+| Sperrholz Pappel 6mm || 60 || 70 || 15 || ||
+|-
+| Sperrholz Pappel 8mm || 60 || 80 || 15 || ||  jw 20190815 falafue 
+|-
+| Sperrholz Pappel 10mm || 60 || 70 || 10 || || 
+|-
+|
+|-
+| Finnpappe 1mm || 26 || 65 || 300 || || 
+|-
+| Finnpappe 2mm || 50 || 70 || 60 || 18
+|-
+| Finnpappe 3mm || 50 || 70 || 80 || || 
+|-
+|
+|-
+| Graupappe 0.5mm || 28 || 70 || 200 || ||
+|-
+| Graupappe 1.5mm || 28 || 70 || 100 || || 
+|-
+| Graupappe 2.5mm || 50 || 70 || 60 || ||  jw 20190722 falafue, 70 zu schnell.
+|-
+|
+|-
+| Kromapappe 2mm || 20 || 40 || 70 || 18 ||
+|-
+|
+|-
+| Kraftplex 0.8mm || 27 || 70 || 140 || || jw 20180901 falafue, 170 ist zu schnell
+|-
+| Kraftplex 1.0mm || 22 || 70 || 100 || || jw fablab
+|-
+| Kraftplex 1.5mm || 20 || 70 || 60 || || jw 20181228 falafue, 70 ist zu schnell
+|-
+| Kraftplex 1.5mm || 20 || 70 || 50 || || jw 20191101 fln
+|-
+| Kraftplex 1.5mm || 30 || 60 || 40 || || Hannes+Karla 20191021
+|-
+| Kraftplex 3.0mm || 50 || 70 || 27 || || jw 20180901 falafue
+|-
+|
+|-
+| MDF ikea 1.5mm || 30 || 70 || 80 || || jw 20190513 falafue Verstopft die Lüftung in Nürnberg
+|-
+| MDF 3mm || 50 || 70 || 22 || || jw 20180505: Verstopft die Lüftung in Nürnberg
+|-
+|
+|-
+| POM Delrin 6.0mm || 50 || 70 || 8 || || jw 20181001 falafue, verklebt immernoch
+|-
+| POM Delrin 4.0mm || 50 || 70 || 12 || || jw 20181001 falafue
+|-
+|
+|-
+| PU Weichschaum 1cm|| 50 || 70 || 100 || ||
+|-
+| Airplak Kartonschaum 3mm|| 20 || 70 || 150 || || jw 20191216 falafue
+|-
+|
+|-
+| Schichtstoff (HPL) 0.8mm || 50 || 70 || 50 || || jw 20181008 falafue, stinkt metallisch, Vorsicht: giftige Dämpfe!
+|-
+| PET Folie 0.5mm || 28 || 70 || 150 || || jw 2020-04-28, fln
+|
+|-
+| Baumwolle 100% zweilagig|| 28 || 70 || 200|| || jw+vb 2020-08-07, fln, Stoff wurde zuvor gefaltet und gepresst
+|}
+Falls diese Einstellungen nicht ganz durch schneiden: '''Bitte Linse reinigen!'''
+
+==== Markieren: CUT - ("Grüne Linie") ====
+{| class="wikitable"
+|-
+! Material !! MinPower1 !! MaxPower1 !! Speed !! Bemerkung
+|-
+!          !! [ % ] !! [ % ] !! [ mm/s ] !! 
+|-
+| Birke || 9 ||  35 || 200 || jw 20180824: max 30 war zu wenig, min 9 ist sehr viel
+|-
+| Buche || 8 ||  25 || 1000 || jw 20190624: Beschriftung recht blass
+|-
+| Kraftplex || 9 || 35 || 200 || jw 20180901 falafue, 8 zündet nicht sicher
+|-
+| Smarties || 20 || 25 || 1000 || jw 20190405 (Zuckerglasur, ohne Schokalade zu treffen)
+|-
+| Kraftplex || 9 || 35 || 200 || jw 20180901 falafue, 8 zündet nicht sicher in Fürth
+|-
+| Kraftplex || 8 || 20 || 200 || jw 20191101 fln, 8 zündet sauber in Nürnberg
+|-
+|
+|-
+| Airplak Kartonschaum || 8 || 20 || 250 || jw 20191216 falafue (schneidet den obere Karton)
+|-
+|}
+
+==== Gravieren: SCAN - ("Schwarze Fläche") ====
+{| class="wikitable"
+|-
+! Material !! MinPower1 !! MaxPower1 !! Speed
+|-
+!          !! [ % ] !! [ % ] !! [ mm/s ]
+|-
+| Birke || 8 ||  25  || 300
+|-
+| Birke || 8 ||  70  || 900 || 0.5mm tief
+|-
+| HPL   || 9 ||  35  || 200  || High Pressure Laminate, Vorsicht: giftige Dämpfe
+|}
+
+=== Action ===
+
+== Nachbereitung ==
+
+Nach dem Lasern ca. 30 Sekunden warten, bis sich der Rauch verzogen hat.
+
+=== Maschine abschalten ===
+
+=== Aufräumen ===
+
+
+[[Kategorie:Geräte]]
+[[Kategorie:Lasercutter]]
