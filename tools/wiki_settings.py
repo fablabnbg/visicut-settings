@@ -50,6 +50,10 @@ class WikiTable:
       if format not in known:
         raise(ValueError("Unknown format '%s', expected one of %s" % (format, str(known))))
       self.format = format      # should be one of 'html', 'wiki'
+    if self.format == 'wiki':
+      self.tables = self.find_tables_wiki(self.document)
+    else:
+      self.tables = self.find_tables_html(self.document)
 
 
   def _import_url(self, urls, prefer_raw):
@@ -58,7 +62,11 @@ class WikiTable:
     for url in urls:
       try:
         a = urllib.request.urlopen(url)
-        self.document = str(a.read())
+        d = a.read()
+        if type(b'') == type(d):
+          self.document = d.decode('utf-8')
+        else:
+          self.document = str(d)
         self.url = a.url
       except Exception as e:
         print("Failed to load URL '%s' :" % url, e, file=sys.stderr)
@@ -69,7 +77,11 @@ class WikiTable:
   def _import_file(self, filename):
     try:
       fd = open(filename)
-      self.document = str(fd.read())
+      d = fd.read()
+      if type(b'') == type(d):
+        self.document = d.decode('utf-8')
+      else:
+        self.document = str(d)
       self.url = 'file://'+filename
     except Exception as e:
       print("Failed to load file '%s' :" % url, e, file=sys.stderr)
@@ -143,6 +155,38 @@ class WikiTable:
     # report what we got
     return { 'wiki': guess_wiki, 'html': guess_html }
 
+
+  def find_tables_wiki(self, document):
+    """
+        Walk through mediawiki source code, find tables.
+        For each table we record the byte offset, where it starts in document, and the length in bytes in document.
+        This makes it easy to search for headings and texts leading up to a table.
+        Reference: https://www.mediawiki.org/wiki/Help:Tables#Wiki_table_markup_summary
+
+        {|        table start, required
+        |-
+        ! Material !! MinPower1 !! MaxPower1 !! Speed !! Fokus !! Bemerkung
+        |-
+        !          !! [ % ] !! [ % ] !! [&nbsp;mm/s&nbsp;] !! [&nbsp;mm&nbsp;]!!
+        |-
+        | Acryl 2mm ||  45 || 70 || 45 || ||  jw 20201003 fln
+        |-
+        |}        table end, required
+
+    """
+    l = re.split(r'^({\||\|})', document, flags=re.MULTILINE)
+    tables = []
+    for i in range(len(l)):
+      if l[i] == '{|':
+        t = { 'pre': l[i-1], 'body': l[i+1] }
+
+        tables.append(t)
+
+    return tables
+
+
+  def find_tables_html(self, document):
+    raise(ValueError("find_tables_html not impl. format = %s" % (format)))
 
 # ----------------------------------------
 if __name__ == "__main__":
