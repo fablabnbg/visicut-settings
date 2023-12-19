@@ -1,24 +1,26 @@
-<laserDevice>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<laserDevice version="0">
   <originBottomLeft>false</originBottomLeft>
-  <jobSentText>Job was sent as &apos;$jobname&apos;
-Please:
--Close the lid
--Turn the Ventilation on and select ZING
--And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobSentText>Dein Auftrag '$jobname' wurde an den `$name` gesendet.
+Bitte:
+-Lege Material ein, schliesse den Deckel
+-Schalte die Abluft ein (Hauptschalter und zwei kleine)
+-Drücke die grüne 'Start' Taste am  $name</jobSentText>
   <jobPrefix>visicut </jobPrefix>
-  <laserCutter class="com.t_oster.liblasercut.drivers.EpilogZing">
+  <laserCutter class="de.thomas_oster.liblasercut.drivers.EpilogZing">
     <hostname>zing1.fablab.lan</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
-    <hideSoftwareFocus>false</hideSoftwareFocus>
-    <bedWidth>405.0</bedWidth>
-    <bedHeight>305.0</bedHeight>
+    <hideSoftwareFocus>true</hideSoftwareFocus>
+    <bedWidth>400.0</bedWidth>
+    <bedHeight>300.0</bedHeight>
   </laserCutter>
   <cameraTiming>0</cameraTiming>
   <projectorTiming>0</projectorTiming>
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
   <thumbnailPath>Zing.png</thumbnailPath>
-  <description>20190513, jw</description>
+  <description>2023-09-09-jw</description>
   <name>Zing</name>
 </laserDevice>

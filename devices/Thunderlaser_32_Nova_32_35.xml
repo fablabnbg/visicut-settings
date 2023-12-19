@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<laserDevice version="0">
+  <originBottomLeft>false</originBottomLeft>
+  <jobSentText>Dein Auftrag '$jobname' wurde an den `$name` gesendet.
+Bitte:
+-Lege Material ein, schliesse den Deckel
+-Schalte die Abluft ein (Hauptschalter und zwei kleine)
+-Drücke die 'Start-Pause' Taste am  $name</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="de.thomas_oster.liblasercut.drivers.Ruida">
+    <baudRate>921600</baudRate>
+    <host>nova35.fablab.lan</host>
+    <comport>auto</comport>
+    <BedWidth>900.0</BedWidth>
+    <BedHeight>600.0</BedHeight>
+    <LaserPowerMin>8</LaserPowerMin>
+    <LaserPowerMax>80</LaserPowerMax>
+    <MaxVectorCutSpeed>1000</MaxVectorCutSpeed>
+    <MaxVectorMoveSpeed>1000</MaxVectorMoveSpeed>
+    <serialTimeout>15000</serialTimeout>
+    <exportPath></exportPath>
+    <uploadMethod>IP</uploadMethod>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <thumbnailPath>Thunderlaser_32_Nova_32_35.png</thumbnailPath>
+  <name>Thunderlaser Nova 35</name>
+</laserDevice>
