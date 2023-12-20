@@ -3,7 +3,7 @@
 <linked-list version="0.0.0.0">
   <com.t__oster.liblasercut.drivers.FloatMinMaxPowerSpeedFrequencyProperty>
     <power>70.0</power>
-    <speed>40.0</speed>
+    <speed>4.0</speed>
     <frequency>500</frequency>
     <min__power>55.0</min__power>
   </com.t__oster.liblasercut.drivers.FloatMinMaxPowerSpeedFrequencyProperty>
