@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<material version="0">
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#e1d7b3</color>
+  <name>Kraftplex</name>
+  <materialThicknesses>
+    <float>0.8</float>
+    <float>1.0</float>
+    <float>1.5</float>
+    <float>3.0</float>
+  </materialThicknesses>
+</material>

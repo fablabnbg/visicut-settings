@@ -1,9 +1,11 @@
-<vectorProfile>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vectorProfile version="0.0">
   <DPI>500.0</DPI>
-  <description>oberflächenschnitt</description>
+  <description>A new Laserprofile</description>
   <name>mark</name>
   <orderStrategy>NEAREST</orderStrategy>
   <useOutline>false</useOutline>
-  <isCut>true</isCut>
-  <width>0.2</width>
+  <isCut>false</isCut>
+  <width>0.1</width>
 </vectorProfile>

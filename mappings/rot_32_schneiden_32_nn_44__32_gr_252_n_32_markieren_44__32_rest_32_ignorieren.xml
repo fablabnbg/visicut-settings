@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<de.thomas__oster.visicut.model.mapping.MappingSet serialization="custom" version="0.0.0.0.0">
+  <unserializable-parents/>
+  <linked-list>
+    <default/>
+    <int>3</int>
+    <mapping>
+      <a class="filters" serialization="custom">
+        <unserializable-parents/>
+        <linked-list>
+          <default/>
+          <int>1</int>
+          <filter>
+            <compare>false</compare>
+            <inverted>false</inverted>
+            <attribute>Color</attribute>
+            <value class="awt-color">
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </value>
+          </filter>
+        </linked-list>
+        <filters>
+          <default>
+            <multiselectEnabled>false</multiselectEnabled>
+          </default>
+        </filters>
+      </a>
+      <b class="vectorProfile">
+        <DPI>500.0</DPI>
+        <description>A new Laserprofile</description>
+        <name>mark</name>
+        <orderStrategy>NEAREST</orderStrategy>
+        <useOutline>false</useOutline>
+        <isCut>true</isCut>
+        <width>0.1</width>
+      </b>
+    </mapping>
+    <mapping>
+      <a class="filters" serialization="custom">
+        <unserializable-parents/>
+        <linked-list>
+          <default/>
+          <int>1</int>
+          <filter>
+            <compare>false</compare>
+            <inverted>false</inverted>
+            <attribute>Color</attribute>
+            <value class="awt-color">
+              <red>255</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </value>
+          </filter>
+        </linked-list>
+        <filters>
+          <default>
+            <multiselectEnabled>false</multiselectEnabled>
+          </default>
+        </filters>
+      </a>
+      <b class="vectorProfile">
+        <DPI>500.0</DPI>
+        <description>rote linie nearest neigbour</description>
+        <name>cut-nn</name>
+        <orderStrategy>NEAREST</orderStrategy>
+        <useOutline>false</useOutline>
+        <isCut>true</isCut>
+        <width>0.2</width>
+      </b>
+    </mapping>
+    <mapping/>
+  </linked-list>
+  <de.thomas__oster.visicut.model.mapping.MappingSet>
+    <default>
+      <description>A new created mapping</description>
+      <name>rot schneiden nn, grün markieren, rest ignorieren</name>
+    </default>
+  </de.thomas__oster.visicut.model.mapping.MappingSet>
+</de.thomas__oster.visicut.model.mapping.MappingSet>

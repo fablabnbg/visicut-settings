@@ -1,6 +1,8 @@
-<vectorProfile>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vectorProfile version="0.0">
   <DPI>500.0</DPI>
-  <description>durchschneiden</description>
+  <description>rote Linie</description>
   <name>cut</name>
   <orderStrategy>INNER_FIRST</orderStrategy>
   <useOutline>false</useOutline>

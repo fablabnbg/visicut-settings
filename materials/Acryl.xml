@@ -1,12 +1,15 @@
-<material>
-  <description>20180725, jw</description>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<material version="0">
   <engraveColor>#000000</engraveColor>
   <cutColor>#ff0000</cutColor>
-  <color>#91fbfd</color>
+  <color>#c8ffff</color>
   <name>Acryl</name>
   <materialThicknesses>
+    <float>2.0</float>
     <float>3.0</float>
     <float>4.0</float>
-    <float>5.0</float>
+    <float>6.0</float>
+    <float>10.0</float>
   </materialThicknesses>
 </material>

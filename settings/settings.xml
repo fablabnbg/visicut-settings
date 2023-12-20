@@ -1,4 +1,6 @@
-<visicutPreferences>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<visicutPreferences version="0">
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>false</useFilenamesForJobs>
   <enableQRCodes>false</enableQRCodes>
@@ -8,22 +10,7 @@
   <fabqrPublicURL></fabqrPublicURL>
   <fabqrPrivateUser></fabqrPrivateUser>
   <fabqrPrivatePassword></fabqrPrivatePassword>
-  <windowBounds>
-    <x>195</x>
-    <y>63</y>
-    <width>1399</width>
-    <height>810</height>
-  </windowBounds>
+  <autoUpdateSettingsDisabled>false</autoUpdateSettingsDisabled>
+  <lastAutoUpdateTime>0</lastAutoUpdateTime>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
-  <recentFiles>
-    <string>/home/testy/stars.svg</string>
-    <string>/usr/share/visicut/examples/Basic/rectangle-20mm-green.svg</string>
-  </recentFiles>
-  <lastMaterial>Sperrholz Birke Hannes</lastMaterial>
-  <lastLaserDevice>Nova 35 fablabnbg</lastLaserDevice>
-  <availableImporters/>
-  <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
-  <fabLabLocationFacebookId></fabLabLocationFacebookId>
-  <laserCutterTags></laserCutterTags>
-  <supportedExtensions></supportedExtensions>
 </visicutPreferences>

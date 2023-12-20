@@ -1,10 +1,11 @@
-<linked-list>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<linked-list version="0.0.0.0">
   <PowerSpeedFocusFrequencyProperty>
-    <min__power>0</min__power>
     <power>100</power>
-    <speed>30</speed>
+    <speed>25</speed>
     <focus>0.0</focus>
-    <hideFocus>false</hideFocus>
+    <hideFocus>true</hideFocus>
     <frequency>5000</frequency>
   </PowerSpeedFocusFrequencyProperty>
 </linked-list>
