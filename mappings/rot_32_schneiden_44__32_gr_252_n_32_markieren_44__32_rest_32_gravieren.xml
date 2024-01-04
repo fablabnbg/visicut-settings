@@ -40,6 +40,18 @@
       </b>
     </mapping>
     <mapping>
+      <b class="rasterProfile">
+        <DPI>500.0</DPI>
+        <description>floyd steinberg</description>
+        <name>engrave</name>
+        <invertColors>false</invertColors>
+        <colorShift>0</colorShift>
+        <ditherAlgorithm class="de.thomas_oster.liblasercut.dithering.FloydSteinberg">
+          <progress>0</progress>
+        </ditherAlgorithm>
+      </b>
+    </mapping>
+    <mapping>
       <a class="filters" serialization="custom">
         <unserializable-parents/>
         <linked-list>
@@ -71,18 +83,6 @@
         <useOutline>false</useOutline>
         <isCut>true</isCut>
         <width>0.2</width>
-      </b>
-    </mapping>
-    <mapping>
-      <b class="rasterProfile">
-        <DPI>500.0</DPI>
-        <description>floyd steinberg</description>
-        <name>engrave</name>
-        <invertColors>false</invertColors>
-        <colorShift>0</colorShift>
-        <ditherAlgorithm class="de.thomas_oster.liblasercut.dithering.FloydSteinberg">
-          <progress>0</progress>
-        </ditherAlgorithm>
       </b>
     </mapping>
   </linked-list>
