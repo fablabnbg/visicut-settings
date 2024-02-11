@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <visicutPreferences version="0">
+  <defaultMapping>rot schneiden, grün markieren, rest gravieren</defaultMapping>
   <disableSandbox>false</disableSandbox>
   <useFilenamesForJobs>false</useFilenamesForJobs>
+  <labName>Fab Lab Region Nürnberg e.V.</labName>
   <enableQRCodes>false</enableQRCodes>
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
@@ -15,8 +17,7 @@
   <lastAutoUpdateLabName></lastAutoUpdateLabName>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/testy/.visicut/examples/FabLabNBG/monkey-head.svg</string>
   </recentFiles>
-  <lastMaterial>Acryl</lastMaterial>
+  <lastMaterial>Sperrholz Birke</lastMaterial>
   <lastLaserDevice>Thunderlaser Nova 35</lastLaserDevice>
 </visicutPreferences>
