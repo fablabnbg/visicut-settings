@@ -1,4 +1,5 @@
 # examples/
 # axamples
+# git update-index --assume-unchanged settings/settings.private.xml
 .directory
-settings.private.xml
+settings/settings.private.xml
