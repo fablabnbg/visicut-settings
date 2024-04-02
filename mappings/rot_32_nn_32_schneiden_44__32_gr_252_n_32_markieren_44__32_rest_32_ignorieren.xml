@@ -78,7 +78,7 @@
   <de.thomas__oster.visicut.model.mapping.MappingSet>
     <default>
       <description>A new created mapping</description>
-      <name>rot schneiden nn, grün markieren, rest ignorieren</name>
+      <name>rot nn schneiden, grün markieren, rest ignorieren</name>
     </default>
   </de.thomas__oster.visicut.model.mapping.MappingSet>
 </de.thomas__oster.visicut.model.mapping.MappingSet>

@@ -4,7 +4,48 @@
   <unserializable-parents/>
   <linked-list>
     <default/>
-    <int>3</int>
+    <int>4</int>
+    <mapping>
+      <a class="filters" serialization="custom">
+        <unserializable-parents/>
+        <linked-list>
+          <default/>
+          <int>2</int>
+          <filter>
+            <compare>false</compare>
+            <inverted>true</inverted>
+            <attribute>Fill Color</attribute>
+            <value class="string">none</value>
+          </filter>
+          <filter>
+            <compare>false</compare>
+            <inverted>true</inverted>
+            <attribute>Stroke Color</attribute>
+            <value class="awt-color">
+              <red>0</red>
+              <green>0</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </value>
+          </filter>
+        </linked-list>
+        <filters>
+          <default>
+            <multiselectEnabled>false</multiselectEnabled>
+          </default>
+        </filters>
+      </a>
+      <b class="rasterProfile">
+        <DPI>500.0</DPI>
+        <description>floyd steinberg</description>
+        <name>engrave</name>
+        <invertColors>false</invertColors>
+        <colorShift>0</colorShift>
+        <ditherAlgorithm class="de.thomas_oster.liblasercut.dithering.FloydSteinberg">
+          <progress>0</progress>
+        </ditherAlgorithm>
+      </b>
+    </mapping>
     <mapping>
       <a class="filters" serialization="custom">
         <unserializable-parents/>
@@ -14,7 +55,7 @@
           <filter>
             <compare>false</compare>
             <inverted>false</inverted>
-            <attribute>Color</attribute>
+            <attribute>Stroke Color</attribute>
             <value class="awt-color">
               <red>0</red>
               <green>255</green>
@@ -40,18 +81,6 @@
       </b>
     </mapping>
     <mapping>
-      <b class="rasterProfile">
-        <DPI>500.0</DPI>
-        <description>floyd steinberg</description>
-        <name>engrave</name>
-        <invertColors>false</invertColors>
-        <colorShift>0</colorShift>
-        <ditherAlgorithm class="de.thomas_oster.liblasercut.dithering.FloydSteinberg">
-          <progress>0</progress>
-        </ditherAlgorithm>
-      </b>
-    </mapping>
-    <mapping>
       <a class="filters" serialization="custom">
         <unserializable-parents/>
         <linked-list>
@@ -60,7 +89,7 @@
           <filter>
             <compare>false</compare>
             <inverted>false</inverted>
-            <attribute>Color</attribute>
+            <attribute>Stroke Color</attribute>
             <value class="awt-color">
               <red>255</red>
               <green>0</green>
@@ -85,11 +114,31 @@
         <width>0.2</width>
       </b>
     </mapping>
+    <mapping>
+      <a class="filters" serialization="custom">
+        <unserializable-parents/>
+        <linked-list>
+          <default/>
+          <int>1</int>
+          <filter>
+            <compare>false</compare>
+            <inverted>false</inverted>
+            <attribute>Stroke Color</attribute>
+            <value class="awt-color" reference="../../../../../mapping/a/linked-list/filter[2]/value"/>
+          </filter>
+        </linked-list>
+        <filters>
+          <default>
+            <multiselectEnabled>false</multiselectEnabled>
+          </default>
+        </filters>
+      </a>
+    </mapping>
   </linked-list>
   <de.thomas__oster.visicut.model.mapping.MappingSet>
     <default>
       <description>A new created mapping</description>
-      <name>rot schneiden, grün markieren, rest gravieren</name>
+      <name>rot schneiden, grün markieren, blau ignorieren, rest gravieren</name>
     </default>
   </de.thomas__oster.visicut.model.mapping.MappingSet>
 </de.thomas__oster.visicut.model.mapping.MappingSet>
