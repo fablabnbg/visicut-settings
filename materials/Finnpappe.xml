@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<material version="0">
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#fdfca1</color>
+  <name>Finnpappe</name>
+  <materialThicknesses>
+    <float>1.0</float>
+    <float>2.0</float>
+    <float>3.0</float>
+  </materialThicknesses>
+</material>

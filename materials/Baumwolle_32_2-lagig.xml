@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<material version="0">
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#46bfff</color>
+  <name>Baumwolle 2-lagig</name>
+  <materialThicknesses>
+    <float>0.5</float>
+  </materialThicknesses>
+</material>
