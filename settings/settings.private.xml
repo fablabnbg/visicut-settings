@@ -7,10 +7,16 @@
   <autoUpdateSettingsDisabled>false</autoUpdateSettingsDisabled>
   <lastAutoUpdateTime>0</lastAutoUpdateTime>
   <lastAutoUpdateLabName></lastAutoUpdateLabName>
+  <windowBounds>
+    <x>964</x>
+    <y>77</y>
+    <width>956</width>
+    <height>1003</height>
+  </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
     <string>/home/jw/.visicut/examples/FabLabNBG/monkey-head.svg</string>
   </recentFiles>
   <lastMaterial>Sperrholz Birke</lastMaterial>
-  <lastLaserDevice>Thunderlaser Nova 35</lastLaserDevice>
+  <lastLaserDevice>Zing</lastLaserDevice>
 </visicutPreferences>
