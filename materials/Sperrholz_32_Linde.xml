@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<material version="0">
+  <engraveColor>#000000</engraveColor>
+  <cutColor>#ff0000</cutColor>
+  <color>#fff0b4</color>
+  <name>Sperrholz Linde</name>
+  <materialThicknesses>
+    <float>3.0</float>
+    <float>4.0</float>
+    <float>5.0</float>
+    <float>6.0</float>
+    <float>8.0</float>
+  </materialThicknesses>
+</material>
